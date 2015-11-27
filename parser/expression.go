@@ -3,9 +3,9 @@ package parser
 import (
 	"regexp"
 
-	"github.com/robertkrimen/otto/ast"
-	"github.com/robertkrimen/otto/file"
-	"github.com/robertkrimen/otto/token"
+	"github.com/mgalvey/otto/ast"
+	"github.com/mgalvey/otto/file"
+	"github.com/mgalvey/otto/token"
 )
 
 func (self *_parser) parseIdentifier() *ast.Identifier {
